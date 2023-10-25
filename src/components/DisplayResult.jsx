@@ -5,7 +5,7 @@ function DisplayResult() {
   const { result } = useAppContext();
 
   return (
-    <div className="sm:text-2xl flex justify-end text-xl">
+    <div className="sm:text-3xl flex flex-wrap justify-end text-2xl">
       <p>{result}</p>
     </div>
   );

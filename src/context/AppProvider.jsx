@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AppContext } from "./AppContext";
 
 function AppProvider({ children }) {
-  const [result, setResult] = useState("1986");
+  const [result, setResult] = useState("0");
 
   const resetResult = () => {
     setResult("0");
